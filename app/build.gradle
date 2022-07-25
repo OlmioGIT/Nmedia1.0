@@ -56,6 +56,6 @@ dependencies {
     def activity_version = "1.4.0"
     implementation "androidx.activity:activity-ktx:$activity_version"
     def lifecycle_version = "2.4.1"
-    implementation "androidx.lifecycle:lifecycle-vievmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
 }
