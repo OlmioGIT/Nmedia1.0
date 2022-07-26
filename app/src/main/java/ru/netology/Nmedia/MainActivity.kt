@@ -36,9 +36,6 @@ class MainActivity : AppCompatActivity() {
         binding.root.setOnClickListener {
             Log.d("stuff", "stuff")
         }
-        binding.avatar.setOnClickListener {
-            Log.d("stuff", "avatar")
-        }
 
         binding.likes.setOnClickListener {
             Log.d("stuff", "like")
@@ -48,10 +45,6 @@ class MainActivity : AppCompatActivity() {
         binding.share.setOnClickListener {
             Log.d("stuff", "shared")
             viewModel.share()
-        }
-
-        binding.seen.setOnClickListener {
-            Log.d("stuff", "viewed")
         }
     }
 }
